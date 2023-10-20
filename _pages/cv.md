@@ -30,7 +30,7 @@ Publications
   
 Teaching
 ======
-  <ul>{% for post in site.teaching %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
+* EC 204 Empirical Economics 2
+  * Second semester of a two-semester sequence of empirical techniques used in economic analysis
+  * Spring 2021, Spring 2022, Fall 2023
 
