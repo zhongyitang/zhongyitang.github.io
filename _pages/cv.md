@@ -24,9 +24,9 @@ Work experience
 
 Publications
 ======
-  <ul>{% for post in site.publications %}
+  {% for post in site.publications %}
     {% include archive-single-cv.html %}
-  {% endfor %}</ul>
+  {% endfor %}
   
 Teaching
 ======
