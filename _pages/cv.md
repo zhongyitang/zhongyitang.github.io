@@ -24,7 +24,7 @@ Work experience
 
 Publications
 ======
-* [Using publicly available satellite imagery and deep learning to understand economic well-being in Africa](https://zhongyitang.github.io/publication/Yeh_et_al2020) \
+* [Using publicly available satellite imagery and deep learning to understand economic well-being in Africa](https://zhongyitang.github.io/publication/Yeh_et_al2020)  
 *Nature Communications*, 2020
 
 Teaching
