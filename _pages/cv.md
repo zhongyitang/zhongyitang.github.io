@@ -24,9 +24,7 @@ Work experience
 
 Publications
 ======
-  {% for post in site.publications %}
-    {% include archive-single-cv.html %}
-  {% endfor %}
+* [Using publicly available satellite imagery and deep learning to understand economic well-being in Africa](/_publications/Yeh_et_al2020)
   
 Teaching
 ======
