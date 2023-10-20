@@ -14,9 +14,8 @@ Working Papers
 ======
 <details>
 
-**The World Bank and China: Comparing the Impacts of Their Development Projects in Africa**   
-&emsp; with Qingyuan Chai
-&emsp;[[SSRN]]([/files/analyst_ChuqingJin_JMP.pdf](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4598476))      
+**The World Bank and China: Comparing the Impacts of Their Development Projects in Africa** (https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4598476) [SSRN]
+&emsp; with Qingyuan Chai   
 &emsp;**Talks:** BU, Political Economy of Aid Conference      
 
 <summary markdown='span'>[Abstract]
