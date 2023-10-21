@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a fifth-year Economics PhD student at Boston University. My primary research interests are in Urban and Development Economics. 
+I am a fifth-year Economics PhD student at Boston University. My research interests center on infrastructure and urban development in developing countries. 
 
 Working Papers
 ======
