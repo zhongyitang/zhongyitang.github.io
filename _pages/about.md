@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a fifth-year Economics PhD student at Boston University. My research interests center on infrastructure and urban development in developing countries. 
+I am a fifth-year Economics PhD student at [Boston University](https://www.bu.edu/econ/profile/zhongyi-tang/). My research interests center on infrastructure and urban development in developing countries. 
 
 Working Papers
 ======
