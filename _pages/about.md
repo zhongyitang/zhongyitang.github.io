@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "About me"
+title: "Zhongyi Tang"
 excerpt: ""
 author_profile: true
 redirect_from: 
