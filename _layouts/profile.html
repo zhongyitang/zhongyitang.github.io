@@ -24,7 +24,6 @@
         <a href="{{ '/' | relative_url }}#about"{% if page.title == 'About' %} aria-current="location"{% endif %}>About</a>
         <a href="{{ '/' | relative_url }}#experience">Experience</a>
         <a href="{{ '/' | relative_url }}#publications"{% if page.title == 'Publications' %} aria-current="page"{% endif %}>Publications</a>
-        <a href="{{ '/' | relative_url }}#education">Education</a>
         <a href="{{ '/cv/' | relative_url }}"{% if page.title == 'CV' %} aria-current="page"{% endif %}>CV</a>
       </nav>
     </div>
@@ -35,14 +34,13 @@
       <div class="profile-details">
         <p class="profile-name">Zhongyi Tang</p>
         <p class="profile-role">Research Data Scientist<br><span class="employer">Google</span></p>
-        <nav class="social-links" aria-label="Contact and profiles">
-          <a href="mailto:zhongyi418@gmail.com">Email</a>
-          <a href="https://www.linkedin.com/in/zhongyi-tang-68457857/">LinkedIn</a>
-          <a href="https://scholar.google.com/citations?user=SUFHByoAAAAJ&amp;hl=en">Google Scholar</a>
-          <a href="https://github.com/zhongyitang">GitHub</a>
-        </nav>
-        <a class="cv-link" href="{{ '/cv/' | relative_url }}">View my CV</a>
       </div>
+      <nav class="social-links" aria-label="Contact and profiles">
+          <a href="https://www.linkedin.com/in/zhongyi-tang-68457857/">LinkedIn</a>
+          <a href="mailto:zhongyi418@gmail.com">Email</a>
+          <a href="https://scholar.google.com/citations?user=SUFHByoAAAAJ&amp;hl=en">Google Scholar</a>
+      </nav>
+      <a class="cv-link" href="{{ '/cv/' | relative_url }}">View my CV</a>
     </aside>
     <main id="main-content" class="main-content{% if page.title == 'CV' %} cv-page{% endif %}">
       {{ content }}
