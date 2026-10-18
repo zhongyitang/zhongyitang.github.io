@@ -1,0 +1,29 @@
+<div class="experience-item">
+  <div class="experience-time"><span class="current-label">Present</span></div>
+  <div><h3>Research Data Scientist</h3><p class="organization">Google</p></div>
+</div>
+<div class="experience-item">
+  <div class="experience-time">2024–2026</div>
+  <div>
+    <h3>Economist II</h3>
+    <p class="organization">Amazon</p>
+    {% if page.title == "CV" %}
+    <p class="description">Built AI agents for analytics and experimentation, alongside methods and infrastructure for measuring marketing impact.</p>
+    <ul>
+      <li>Developed agents for natural-language experimentation workflows, text-to-SQL, and automated analysis and reporting, with persistent memory and a separate LLM-as-a-judge evaluator.</li>
+      <li>Designed and analyzed regional holdout experiments using synthetic difference-in-differences; improved precision and calibrated observational models against experimental results.</li>
+      <li>Parallelized experimentation pipelines to reduce runtime by a factor of eight and expanded capacity from 3 to 12 marketplaces.</li>
+    </ul>
+    {% endif %}
+  </div>
+</div>
+<div class="experience-item">
+  <div class="experience-time">2017–2019</div>
+  <div>
+    <h3>Research Analyst</h3>
+    <p class="organization">Stanford Institute for Economic Policy Research</p>
+    {% if page.title == "CV" %}
+    <p class="description">Built software pipelines to export satellite imagery at scale, reducing processing time fivefold. Trained and calibrated convolutional neural networks using satellite imagery and household survey data to predict infrastructure outcomes in Africa.</p>
+    {% endif %}
+  </div>
+</div>

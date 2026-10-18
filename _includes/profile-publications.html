@@ -1,0 +1,13 @@
+{% for publication in site.data.selected_publications %}
+<article class="publication">
+  <p class="publication-meta">{{ publication.venue }} <span aria-hidden="true">·</span> {{ publication.year }}</p>
+  <h3><a href="{{ publication.url }}">{{ publication.title }}</a></h3>
+  <p class="authors">{{ publication.authors }}.</p>
+  {% if publication.contribution_note %}<p class="contribution-note">{{ publication.contribution_note }}</p>{% endif %}
+  <p class="publication-summary">{{ publication.summary }}</p>
+  <div class="publication-links">
+    <a href="{{ publication.url }}" aria-label="Read {{ publication.title }}">Read paper</a>
+    {% if publication.data_url %}<a href="{{ publication.data_url }}" aria-label="Data and code for {{ publication.title }}">Data &amp; code</a>{% endif %}
+  </div>
+</article>
+{% endfor %}
