@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{% if page.title != "About" %}{{ page.title | escape }} · {% endif %}Zhongyi Tang · Research Data Scientist</title>
+  <meta name="description" content="{{ page.description | default: site.description | escape }}">
+  <meta name="theme-color" content="#faf7f2">
+  <link rel="canonical" href="{{ page.url | absolute_url }}">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Zhongyi Tang · {{ page.title | escape }}">
+  <meta property="og:description" content="{{ page.description | default: site.description | escape }}">
+  <meta property="og:url" content="{{ page.url | absolute_url }}">
+  <meta property="og:image" content="{{ '/images/Tang_photo.jpeg' | absolute_url }}">
+  <link rel="stylesheet" href="{{ '/assets/css/profile.css' | relative_url }}">
+  <script src="{{ '/assets/js/profile.js' | relative_url }}" defer></script>
+</head>
+<body id="top">
+  <a class="skip-link" href="#main-content">Skip to content</a>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="wordmark" href="{{ '/' | relative_url }}" aria-label="Zhongyi Tang home"><span>Zhongyi Tang</span></a>
+      <nav class="main-nav" aria-label="Main navigation">
+        <a href="{{ '/' | relative_url }}#about"{% if page.title == 'About' %} aria-current="location"{% endif %}>About</a>
+        <a href="{{ '/' | relative_url }}#experience">Experience</a>
+        <a href="{{ '/' | relative_url }}#publications"{% if page.title == 'Publications' %} aria-current="page"{% endif %}>Publications</a>
+        <a href="{{ '/' | relative_url }}#education">Education</a>
+        <a href="{{ '/cv/' | relative_url }}"{% if page.title == 'CV' %} aria-current="page"{% endif %}>CV</a>
+      </nav>
+    </div>
+  </header>
+  <div class="page-shell">
+    <aside class="profile" aria-label="About Zhongyi Tang">
+      <img class="portrait" src="{{ '/images/Tang_photo.jpeg' | relative_url }}" width="450" height="450" alt="Zhongyi Tang" fetchpriority="high">
+      <div class="profile-details">
+        <p class="profile-name">Zhongyi Tang</p>
+        <p class="profile-role">Research Data Scientist<br><span class="employer">Google</span></p>
+        <nav class="social-links" aria-label="Contact and profiles">
+          <a href="mailto:zhongyi418@gmail.com">Email</a>
+          <a href="https://www.linkedin.com/in/zhongyi-tang-68457857/">LinkedIn</a>
+          <a href="https://scholar.google.com/citations?user=SUFHByoAAAAJ&amp;hl=en">Google Scholar</a>
+          <a href="https://github.com/zhongyitang">GitHub</a>
+        </nav>
+        <a class="cv-link" href="{{ '/cv/' | relative_url }}">View my CV</a>
+      </div>
+    </aside>
+    <main id="main-content" class="main-content{% if page.title == 'CV' %} cv-page{% endif %}">
+      {{ content }}
+    </main>
+  </div>
+  <footer class="site-footer">
+    <span>© {{ site.time | date: '%Y' }} Zhongyi Tang</span>
+    <a href="#top">Back to top <span aria-hidden="true">↑</span></a>
+  </footer>
+</body>
+</html>
