@@ -27,9 +27,6 @@ redirect_from:
   {% include profile-publications.html %}
 </section>
 
-<section class="section" id="education" aria-labelledby="education-heading">
-  <div class="section-heading"><h2 id="education-heading">Education</h2></div>
-  {% include profile-education.html %}
-</section>
+
 
 <p class="contact-note">Interested in AI agents, evaluation, or experimentation?<br><a href="mailto:zhongyi418@gmail.com">Let’s connect</a></p>
