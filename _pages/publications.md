@@ -1,16 +1,11 @@
 ---
-layout: archive
+layout: profile
 title: "Publications"
 permalink: /publications/
-author_profile: true
+description: "Publications by Zhongyi Tang on machine learning, satellite imagery, and economic development."
 ---
 
-{% if author.googlescholar %}
-  You can also find my articles on <u><a href="{{author.googlescholar}}">my Google Scholar profile</a>.</u>
-{% endif %}
-
-{% include base_path %}
-
-{% for post in site.publications reversed %}
-  {% include archive-single.html %}
-{% endfor %}
+<p class="eyebrow">Research</p>
+<h1>Publications</h1>
+<p class="page-intro">Machine learning for measurement, with causal methods to understand the mechanisms behind the data.</p>
+{% include profile-publications.html %}
