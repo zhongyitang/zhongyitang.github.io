@@ -1,0 +1,16 @@
+- title: "A New Perspective on Spatial Heterogeneity in African Development"
+  authors: "Pascaline Dupas, Nicolas Suarez, and Zhongyi Tang"
+  contribution_note: "All authors contributed equally."
+  venue: "AEA Papers and Proceedings"
+  year: 2026
+  details: "116: 167–172"
+  url: "https://www.aeaweb.org/articles?id=10.1257/pandp.20261090"
+  summary: "We combine satellite imagery and survey data to map infrastructure access across Africa using machine learning. We then use spatial regression discontinuity to estimate the impact of national institutions on infrastructure access."
+  data_url: "https://doi.org/10.3886/E247751V1"
+- title: "Using publicly available satellite imagery and deep learning to understand economic well-being in Africa"
+  authors: "Christopher Yeh, Anthony Perez, Anne Driscoll, George Azzari, <strong>Zhongyi Tang</strong>, David Lobell, Stefano Ermon, and Marshall Burke"
+  venue: "Nature Communications"
+  year: 2020
+  details: "11, 2583"
+  url: "https://www.nature.com/articles/s41467-020-16185-w"
+  summary: "We combine deep learning with public daytime and nighttime satellite imagery to predict local asset wealth across sub-Saharan Africa. Trained on survey-based wealth measures, the models are evaluated on unseen locations and on changes in wealth over time."
