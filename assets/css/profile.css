@@ -95,3 +95,7 @@ h2{font:600 18px/1.4 var(--sans);letter-spacing:-.015em;margin:0}
 /* Compact layout on narrow screens. */
 
 @media(max-width:740px){.intro-line{font-size:17px}.skills-list{grid-template-columns:1fr;gap:5px}.skills-list dd{margin-bottom:10px}}
+
+/* Keep the homepage name proportional to the introduction. */
+@media screen{.intro h1{font-size:40px}}
+@media screen and (max-width:740px){.intro h1{font-size:34px}}
