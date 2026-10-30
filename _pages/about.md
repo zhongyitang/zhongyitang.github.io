@@ -11,8 +11,8 @@ redirect_from:
 <section class="intro" id="about" aria-labelledby="about-heading">
   <h1 id="about-heading">Zhongyi Tang</h1>
   <p class="intro-line">AI agents, evaluation &amp; experimentation.</p>
-  <p>I am a <strong>Research Data Scientist at Google</strong>. I build useful agents, evaluate their behavior, and measure their impact, drawing on my background in causal inference, experimentation, and machine learning.</p>
-  <p>From 2024 to 2026, I was an <strong>Economist at Amazon</strong>, where I built and evaluated agents for analytics and experimentation—from translating questions into SQL to automating analysis and reporting. I also designed experiments and improved causal methods for measuring business impact.</p>
+  <p>I am a <strong>Research Data Scientist at Google</strong>. My work focuses on understanding how AI agents are used and evaluating their behavior. More broadly, I’m interested in building useful agents and measuring their impact, drawing on my background in causal inference, experimentation, and machine learning.</p>
+  <p>Previously, I was an <strong>Economist at Amazon (2024–2026)</strong>, where I built and evaluated AI agents for analytics and experimentation, automating analysis and reporting. I also designed experiments and developed causal methods to measure business impact.</p>
   <p>I received my <strong>Ph.D. in Economics from Boston University</strong> in 2024. Earlier, at Stanford, I worked on using satellite imagery and deep learning to understand economic development.</p>
 </section>
 
